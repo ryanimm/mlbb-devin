@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local env
+.env
+.env.*
+
+# Models, logs, media
+*.pt
+*.onnx
+*.engine
+weights/
+logs/
+runs/
+*.mp4
+*.avi
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
